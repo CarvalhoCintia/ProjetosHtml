@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    position:absolute;
+    left: 600px;
+}
+h3{
+    position:absolute;
+    left: 700px;
+    top:100px;
+
+}
+.dog{
+    position:absolute;
+    width:350px;
+    height:430px;
+}
+
+fieldset{
+    width:1000px;
+    height:500px;
+    position: relative;
+    left: 300px;
+    top:200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    background-image: linear-gradient(100deg, white 40%, pink); 
+ 
+
+
+}
+legend{
+    font-style:bold;
+    font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+
+}
+ label{
+  position:relative;
+  left:600px;
+  margin-right:10px;
+  top:175px;
+  font-size: 20px;
+  font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+  
+}
+
+
+.Nome {
+  position:absolute;
+  left:780px;
+  top:196px;
+  width:225px;
+  height: 25px;
+  border-radius: 20px;
+}
+.Raça{
+  position:absolute;
+  left:780px;
+  top:235px;
+  margin-top:2px;
+  width:225px;
+  height: 25px;
+  border-radius: 20px;
+}
+
+.Nascimento{
+    position:absolute;
+    left:780px;
+    top:275px;
+    margin-top:2px;
+    width:225px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.Gênero{
+    position:absolute;
+    left:780px;
+    margin-top:2px;
+    top:318px;
+    width:225px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.Castrado{
+    position:absolute;
+    left:780px;
+    margin-top:2px;
+    width:225px;
+    height: 25px;
+    top:357px;
+    border-radius: 20px;
+
+}
+
+.Peso{
+    position:absolute;
+    left:780px;
+    margin-top:2px;
+    width:225px;
+    height: 25px;
+    top:402px;    
+    border-radius: 20px;
+
+}
+
+.back{ 
+  border:1px;
+  position:absolute;
+  bottom: 0.5em;
+  left:700px;
+  background-color:grey;
+  width: 70px;
+  height: 30px;
+  border-radius: 50px;
+  top:450px;
+}
+.next{
+    border:1px;
+    position:absolute;
+    bottom: 0.5em;
+    left:900px;
+    background-color:grey;
+    width: 70px;
+    height: 30px;
+    border-radius: 50px;
+    top:450px;
+
+}
